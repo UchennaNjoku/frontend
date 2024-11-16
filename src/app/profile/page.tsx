@@ -56,7 +56,7 @@ export default function ProfilePage() {
               >
                 Your Fun Profile {currentEmoji}
               </motion.h1>
-              <p className="text-xl text-gray-600">Let's make your experience more personal!</p>
+              <p className="text-xl text-gray-600">Let&apos;s make your experience more personal!</p>
             </div>
 
             <div className="grid gap-8 md:grid-cols-2 mb-12">
