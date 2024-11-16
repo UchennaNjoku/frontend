@@ -279,7 +279,7 @@ export default function Onboarding() {
         <>
           <h2 className="text-2xl font-semibold">
             {knowsMajor 
-              ? "Great choice! Let's explore your major:"
+              ? "Great choice! Let&apos;s explore your major:"
               : "Here are your recommended majors:"}
           </h2>
           {isLoading ? (
