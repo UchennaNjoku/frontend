@@ -120,7 +120,9 @@ export default function Onboarding() {
       <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#313BA8] to-blue-600">
         Find Your Path
       </h1>
-      <p className="text-xl mb-8 text-gray-600">Let's discover the perfect major for your future</p>
+      <p className="text-xl mb-8 text-gray-600">
+        Let&apos;s discover the perfect major for your future
+      </p>
       <Button onClick={handleNextStep} size="lg" className="rounded-full bg-gradient-to-r from-[#313BA8] to-blue-600">
         Begin Your Journey
       </Button>
@@ -171,7 +173,7 @@ export default function Onboarding() {
         </div>
         <div className="flex items-center space-x-2 p-4 rounded-xl border-2 border-gray-100 hover:border-[#313BA8] transition-colors">
           <RadioGroupItem value="no" id="no" />
-          <Label htmlFor="no" className="flex-grow cursor-pointer">No, I'd like to explore options</Label>
+          <Label htmlFor="no" className="flex-grow cursor-pointer">No, I&apos;d like to explore options</Label>
         </div>
       </RadioGroup>
     </motion.div>,
@@ -330,7 +332,7 @@ export default function Onboarding() {
             <p className="text-2xl text-[#313BA8] font-bold mt-2">{selectedMajor}</p>
           </div>
           <p className="text-lg text-gray-600">
-            Get ready to explore your academic journey! We'll help you navigate your path
+            Get ready to explore your academic journey! We&apos;ll help you navigate your path
             in {selectedMajor} with personalized resources and guidance.
           </p>
           <Button 
